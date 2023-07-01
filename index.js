@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf')
 
-const bot = new Telegraf('6172315894:AAFU_P0LLeXcDW9_bWAwU06tqkbuhLbBESA')
+const bot = new Telegraf('6172315894:AAFU_P0LLeXcDW9_bWAwU06tqkbuhLbBESA') // token is disabled
 
 bot.command('help', (ctx) => {
 	ctx.reply(`Бот может здороваться на разных языках.
